@@ -16,6 +16,24 @@
       "message": "Since this Android.base.config acts as the foundation for multiple targets using the Clang/LLD toolchain, have we considered enabling CONFIG_LTO_CLANG_THIN\u003dy globally here?\n\nEnforcing ThinLTO at this base level would ensure consistent performance gains, memory optimization, and dead-code elimination across all devices inheriting from this base. It seems like a logical next step to align with modern AOSP kernel standards.",
       "revId": "086a70e27927a9031496247cb9742c83b47ff50b",
       "serverId": "58543e18-2196-4633-8043-7787712585ad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "dc49538d_c58dacf8",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000018
+      },
+      "writtenOn": "2026-08-18T16:03:21Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "4daec123_75319d51",
+      "revId": "086a70e27927a9031496247cb9742c83b47ff50b",
+      "serverId": "58543e18-2196-4633-8043-7787712585ad"
     }
   ]
 }
